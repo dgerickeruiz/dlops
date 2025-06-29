@@ -2,7 +2,7 @@
 
     python -m venv DLOps
 
-# dar permisos
+# Dar permisos
 
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
@@ -11,5 +11,10 @@
     .\DLOps\Scripts\activate
 
 # Desactibar Ambiente desde la raiz
+
     cd .\DLOps\Scripts
     deactivate
+
+# Definir variables de entorno para FireBase
+
+    $Env:GOOGLE_APPLICATION_CREDENTIALS = "dlops_key.json"

@@ -2,3 +2,5 @@ pip install scikit-learn
 pip install pandas
 pip install matplotlib
 pip install scikit-image
+pip install dvc
+pip install dvc[gs]
