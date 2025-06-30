@@ -21,8 +21,7 @@
 # Ingresa clave de ambiente
 
     $Env:GOOGLE_APPLICATION_CREDENTIALS = "dlops_key.json"
-
-
+    
 # Ver en que Tag estoy parado
 
     git describe --tags --always
