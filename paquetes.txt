@@ -1,6 +1,11 @@
+-- Video 1
 pip install scikit-learn
 pip install pandas
 pip install matplotlib
 pip install scikit-image
 pip install dvc
 pip install dvc[gs]
+
+-- Video 2
+pip install pytorch-lightning
+pip install wandb
