@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.5",
+  "startedAt":  "2025-07-01T15:11:54.697621Z",
+  "program":  "d:\\INACAP\\2024 Ingenieria\\8vo semestre\\Machine Learning\\Unidad 4\\DLOps\\04_onnx.ipynb",
+  "codePath":  "04_onnx.ipynb",
+  "git":  {
+    "remote":  "https://github.com/dgerickeruiz/dlops.git",
+    "commit":  "35ed51ed415cc2d30ad654e8217f27c0b419b837"
+  },
+  "email":  "dgerickeruiz@gmail.com",
+  "root":  "d:\\INACAP\\2024 Ingenieria\\8vo semestre\\Machine Learning\\Unidad 4\\DLOps",
+  "host":  "DanielGericke",
+  "executable":  "d:\\INACAP\\2024 Ingenieria\\8vo semestre\\Machine Learning\\Unidad 4\\DLOps\\DLOps\\Scripts\\python.exe",
+  "codePathLocal":  "04_onnx.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "500090007552",
+      "used":  "371441758208"
+    }
+  },
+  "memory":  {
+    "total":  "16963534848"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing",
+      "uuid":  "GPU-712c37c9-d649-4f96-f03d-6add9e8565d7"
+    }
+  ],
+  "cudaVersion":  "11.6"
+}

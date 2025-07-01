@@ -1,0 +1,99 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m:
+            - "1": loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "1": acc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_loss
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": val_acc
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.12.5
+        t:
+            "1":
+                - 1
+                - 9
+                - 103
+                - 105
+            "2":
+                - 1
+                - 9
+                - 103
+                - 105
+            "3":
+                - 7
+                - 13
+                - 16
+                - 55
+                - 66
+            "4": 3.12.5
+            "5": 0.20.1
+            "8":
+                - 3
+            "12": 0.20.1
+            "13": windows-amd64
+callbacks:
+    value:
+        - lib: src.utils
+          name: WandBCallback
+          params:
+            labels:
+                - no 3
+                - "3"
+        - lib: pytorch_lightning.callbacks
+          name: ModelCheckpoint
+          params:
+            dirpath: checkpoints
+            filename: "006"
+            mode: min
+            monitor: val_loss
+            save_top_k: 1
+datamodule:
+    value:
+        batch_size: 25
+        path: dataset
+logger:
+    value: WandbLogger
+logger_params:
+    value:
+        name: "006"
+        project: dlops-mnist
+trainer:
+    value:
+        callbacks:
+            - <src.utils.WandBCallback object at 0x00000210D63E9CA0>
+            - <pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint object at 0x00000210D71FAC30>
+            - <pytorch_lightning.callbacks.progress.tqdm_progress.TQDMProgressBar object at 0x00000210D72209B0>
+            - <pytorch_lightning.callbacks.model_summary.ModelSummary object at 0x00000210D7220B30>
+        enable_checkpointing: true
+        logger: <pytorch_lightning.loggers.wandb.WandbLogger object at 0x00000210D6F9F080>
+        max_epochs: 10
+        overfit_batches: 0

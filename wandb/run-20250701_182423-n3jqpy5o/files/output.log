@@ -1,0 +1,1 @@
+d:\INACAP\2024 Ingenieria\8vo semestre\Machine Learning\Unidad 4\DLOps\DLOps\Lib\site-packages\pytorch_lightning\loggers\wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.

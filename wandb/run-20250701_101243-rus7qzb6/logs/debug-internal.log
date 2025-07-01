@@ -1,0 +1,16 @@
+{"time":"2025-07-01T10:12:43.9255759-04:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"D:\\INACAP\\2024 Ingenieria\\8vo semestre\\Machine Learning\\Unidad 4\\DLOps\\wandb\\run-20250701_101243-rus7qzb6\\logs\\debug-core.log"}
+{"time":"2025-07-01T10:12:44.24325-04:00","level":"INFO","msg":"stream: created new stream","id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:44.2438004-04:00","level":"INFO","msg":"stream: started","id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:44.2438004-04:00","level":"INFO","msg":"handler: started","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:44.2438004-04:00","level":"INFO","msg":"sender: started","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:44.2438004-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:44.5709459-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T10:12:44.8694237-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T10:12:44.8694237-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T10:12:45.8752367-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.7873567,"progress":"3.0KB/3.0KB"},{"desc":"uploading output.log","runtime_seconds":0.5815502},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5815502,"progress":"143B/143B"},{"desc":"uploading config.yaml","runtime_seconds":0.1881287,"progress":"514B/514B"}],"total_operations":4}}
+{"time":"2025-07-01T10:12:46.7182666-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T10:12:48.2561095-04:00","level":"INFO","msg":"stream: closing","id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:48.2561095-04:00","level":"INFO","msg":"handler: closed","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:48.2561095-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:48.2561095-04:00","level":"INFO","msg":"sender: closed","stream_id":"rus7qzb6"}
+{"time":"2025-07-01T10:12:48.2566164-04:00","level":"INFO","msg":"stream: closed","id":"rus7qzb6"}

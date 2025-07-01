@@ -9,3 +9,8 @@ pip install dvc[gs]
 -- Video 2
 pip install pytorch-lightning
 pip install wandb
+
+-- Video 4
+
+pip install onnx
+pip install onnxruntime

@@ -1,0 +1,17 @@
+
+  | Name | Type       | Params | Mode
+--------------------------------------------
+0 | mlp  | Sequential | 78.6 K | train
+--------------------------------------------
+78.6 K    Trainable params
+0         Non-trainable params
+78.6 K    Total params
+0.314     Total estimated model params size (MB)
+4         Modules in train mode
+0         Modules in eval mode
+Epoch 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 13/13 [00:01<00:00, 10.16it/s, v_num=ykhr, acc=0.950, val_loss=0.185, val_acc=0.950]
+D:\INACAP\2024 Ingenieria\8vo semestre\Machine Learning\Unidad 4\DLOps\DLOps\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+D:\INACAP\2024 Ingenieria\8vo semestre\Machine Learning\Unidad 4\DLOps\DLOps\Lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+D:\INACAP\2024 Ingenieria\8vo semestre\Machine Learning\Unidad 4\DLOps\DLOps\Lib\site-packages\pytorch_lightning\loops\fit_loop.py:310: The number of training batches (13) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+                                                                                                                                                                                                                                                                                                                                        
+`Trainer.fit` stopped: `max_epochs=10` reached.
